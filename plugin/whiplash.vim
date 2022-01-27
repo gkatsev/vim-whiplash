@@ -132,7 +132,7 @@ function! s:WhiplashCD()
   " cd g:WhiplashProjectProjectsDir
   "
   " fnamescape() is for safety when treating strings as file paths.
-  execute "cd" fnameescape(g:WhiplashProjectsDir . g:WhiplashCurrentProject . "/")
+  execute "lcd" fnameescape(g:WhiplashProjectsDir . g:WhiplashCurrentProject . "/")
 endfunction
 
 """
